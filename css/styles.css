@@ -1,0 +1,399 @@
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding: 0px;
+}
+
+.titulo-izquierda {
+    text-align: left;
+    margin-left: 20px;
+    color: #0d2e79;
+    font-size: 24px;
+}
+
+header {
+    background-color: #ffffff;
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: -20px;
+    height: 80px;
+    z-index: 9999;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.ingreso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.imagen img {
+    width: 5%;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form h3 {
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.boton_Whatsapp {
+    padding: 10px 0;
+    width: 200px;
+    background-color: #09b11f;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover,
+.boton_Whatsapp:hover {
+    background-color: #0056b3;
+}
+
+form label {
+    font-size: 14px;
+    text-align: left;
+}
+
+.boton_container {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.boton_cotiza {
+    padding: 10px 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+}
+
+.boton-siguiente {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+display: flex;
+    text-align: center;
+}
+
+.texto-izquierda {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
+
+.titulo_seg {
+    color: #014b99;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.seccion2 {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 80px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.cotiza-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.cotiza-button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: #0d2e79;
+}
+
+.titulo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(234, 203, 151, 0.2);
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.informacion-contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacion, .contacto {
+    width: 45%;
+}
+
+.informacion h3, .contacto h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.informacion p, .contacto p {
+    color: #666;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #0c1f4b;
+    padding: 20px;
+    width: 100%;
+}
+
+.informacion-contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacion, .contacto {
+    color: white;
+    text-align: center
+}
+
+.informacion h3, .contacto h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.informacion p, .contacto p {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .texto-izquierda {
+        display: none;
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer{
+        width: 100%;
+        margin-right: -30px;
+
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        width: 100%;
+        margin: 20px;
+        margin-top: 100px;
+    }
+
+    header {
+        width: 150%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .ingreso {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .imagen img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    form h3 {
+        margin-top: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: calc(100% - 16px);
+        padding: 8px;
+        margin-bottom: 12px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .boton_Whatsapp {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .boton_container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .boton_cotiza {
+        margin-top: auto;
+        position: static;
+        width: auto;
+    }
+
+    .boton-siguiente {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .imagen img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .ingreso {
+        height: auto;
+        padding: 20px;
+    }
+
+    .cards-section {
+        flex-direction: column;
+        align-items: center;
+        margin-right: -30px;
+    }
+
+    .card {
+        width: 70%;
+        margin: 30px auto;
+    }
+}
